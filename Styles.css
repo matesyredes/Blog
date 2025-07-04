@@ -1,0 +1,108 @@
+
+
+/* Tipografía y colores generales */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfcfb;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+  background-color: #ffde99;
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 4px solid #f5b041;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #3e3e3e;
+}
+
+header p {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: #5c5c5c;
+}
+
+/* Navegación */
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #d35400;
+}
+
+/* Main */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+article {
+  background-color: #fffdfa;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+article h2 {
+  color: #d35400;
+  margin-bottom: 0.5rem;
+}
+
+/* Aside */
+aside {
+  background-color: #fff4dd;
+  padding: 1rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  border-left: 5px solid #f39c12;
+  border-radius: 8px;
+}
+
+aside h3 {
+  margin-top: 0;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+
+aside ul li {
+  margin: 0.5rem 0;
+}
+
+aside ul li a {
+  color: #3e3e3e;
+  text-decoration: none;
+}
+
+aside ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #eee;
+  color: #777;
+  font-size: 0.9rem;
+}
